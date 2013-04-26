@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Tunisair>
+    
+    <agence>
+        <pays>Tunisie </pays>
+        <ville>Tabarka </ville>
+        <adresse> Aéroport international de Tabarka 7 novembre </adresse>
+        <tel>(00216) 78 168 082</tel>
+        <fax>(00216) 78 680 111</fax>
+        <mail>Tunisair@gmail.com </mail>
+        <latitude> 36.98</latitude>
+        <longitude>8.87694</longitude>
+    </agence>   
+    <agence>
+        <pays> Tunisie </pays>
+        <ville>Bizerte </ville>
+        <adresse>76 Av. Habib Bourguiba Bizerte  </adresse>
+        <tel>(00216) 72 431 336 , (00216) 72 432 201/202</tel>
+        <fax>(00216) 72 443 033</fax>
+        <mail> </mail>
+        <latitude>37.272636 </latitude>
+        <longitude>9.871988</longitude>
+    </agence>    
+    <agence>
+        <pays>Tunisie </pays>
+        <ville> Tunis </ville>
+        <adresse>Agence siège Tunisair CHARGUIA 2 2035 Tunis Carthage  </adresse>
+        <tel>(00216) 70 837 000 , (00216) 70 838 300 , Poste (2050/2080)</tel>
+        <fax>(00216) 71 942 505</fax>
+        <mail> </mail>
+        
+        <latitude>36.85275 </latitude>
+        <longitude>10.23245</longitude>
+    </agence>    
+    <agence>
+        <pays>Tunisie </pays>
+        <ville>Tunis  </ville>
+        <adresse>Délégation Générale : 138, Av de la Liberté </adresse>
+        <tel>(00216) 71 281 678</tel>
+        <fax> (00216) 71 281 653 </fax>
+        <mail> </mail>
+        <InfosPratiques> </InfosPratiques>
+        <latitude>36.8166817 </latitude>
+        <longitude>10.1762264</longitude>
+    </agence>    
+	<agence>
+        <pays>Tunisie </pays>
+        <ville>Tunis</ville>
+        <adresse>Agence Principale : Angle Rue PIERRE de COUBERTIN (N°10) - Avenue JEAN JAURES (N°16)</adresse>
+        <tel>(00216) 71 336 500 , (00216) 71 354 609</tel>
+        <fax>(00216) 71 341 632</fax>
+        <mail> </mail>
+        <InfosPratiques> </InfosPratiques>
+        <latitude>36.8166817</latitude>
+        <longitude>10.1762264</longitude>
+    </agence>    
+	<agence>
+        <pays>Tunisie </pays>
+        <ville>Tunis  </ville>
+        <adresse>Agence Liberté : 113 Av. de la Liberté </adresse>
+        <tel>(00216) 71 841 258/967</tel>
+        <fax>(00216) 71 802 336</fax>
+        <mail> </mail>
+        <InfosPratiques> </InfosPratiques>
+        <latitude>36.8166817 </latitude>
+        <longitude>10.1762264</longitude>
+    </agence>    
+	<agence>
+        <pays>Tunisie </pays>
+        <ville> Tunis </ville>
+        <adresse>El Menzah </adresse>
+        <tel>(00216) 71 718 111 , (00216) 71 233 310</tel>
+        <fax>(00216) 71 230 051</fax>
+        <mail> </mail>
+        <InfosPratiques> </InfosPratiques>
+        <latitude>36.83978 </latitude>
+        <longitude>10.18536</longitude>
+    </agence>    
+	<agence>
+        <pays>Tunisie </pays>
+        <ville>Tunis  </ville>
+        <adresse>La Kasbah  </adresse>
+        <tel>(00216) 71 573 934 , (00216) 71 571 571 , (00216) 71 564 023</tel>
+        <fax>(00216) 71 561 458</fax>
+        <mail> </mail>
+        <InfosPratiques> </InfosPratiques>
+        <latitude>36.7167 </latitude>
+        <longitude>9.18333</longitude>
+    </agence>    
+	<agence>
+        <pays>Tunisie </pays>
+        <ville>Tunis </ville>
+        <adresse>La Marsa </adresse>
+        <tel>(00216) 71 775 222 , (00216) 71 740 680</tel>
+        <fax>(00216) 71 746 455</fax>
+        <mail> </mail>
+        <InfosPratiques> Aéroport Tunis Carthage (8 Kms)</InfosPratiques>
+        <latitude>36.87949</latitude>
+        <longitude>10.32723</longitude>
+    </agence>    
+	<agence>
+        <pays>Tunisie </pays>
+        <ville>Sousse </ville>
+        <adresse>Agence : 5 Av Habib Bourguiba </adresse>
+        <tel>(00216) 73 227 955</tel>
+        <fax>(00216) 73 225 233</fax>
+        <mail> </mail>
+        <InfosPratiques>Représentation	 tel : (00216) 73 225 232 , (00216) 73 223 952 Taxi : 5,000 TND , Metro : 0,700 TND</InfosPratiques>
+        <latitude>35.83045</latitude>
+        <longitude>10.64068</longitude>
+    </agence>    
+	<agence>
+        <pays>Tunisie</pays>
+        <ville>Nabeul</ville>
+        <adresse>178, Av. Habib Bourguiba 8000 Nabeul </adresse>
+        <tel>(00216) 72 286 092 , (00216) 72 286 775 , (00216) 72 285 193</tel>
+        <fax>(00216) 72 287 984</fax>
+        <mail> </mail>
+        <InfosPratiques> </InfosPratiques>
+        <latitude>36.45056</latitude>
+        <longitude>10.73505</longitude>
+    </agence>    
+	<agence>
+        <pays>Tunisie </pays>
+        <ville>Kairouan</ville>
+        <adresse>Aéroport : Rue Khawarezmi 3100 Kairouan </adresse>
+        <tel>(00216) 77 230 422</tel>
+        <fax>(00216) 77 235 661</fax>
+        <mail> </mail>
+        <InfosPratiques> </InfosPratiques>
+        <latitude>35.67238</latitude>
+        <longitude>10.10388</longitude>
+    </agence>    
+	<agence>
+        <pays>Tunisie </pays>
+        <ville>Monastir</ville>
+        <adresse>Aéroport : Habib Bourguiba </adresse>
+        <tel>(00216) 73 520 043 , (00216) 73 521 300</tel>
+        <fax></fax>
+        <mail> </mail>
+        <InfosPratiques>Taxi : 0,5 TND , Bus : 0,4 TND </InfosPratiques>
+        <latitude>35.75793</latitude>
+        <longitude>10.75402</longitude>
+    </agence>    
+ 	<agence>
+        <pays>Tunisie </pays>
+        <ville>Gafsa </ville>
+        <adresse> Aéroport : Gafsa Ksar </adresse>
+        <tel>(00216) 76 273 690</tel>
+        <fax>(00216) 76 272 204</fax>
+        <mail> </mail>
+        <InfosPratiques> </InfosPratiques>
+        <latitude> 35.75793</latitude>
+        <longitude> 10.75402 </longitude>
+    </agence>    
+	<agence>
+        <pays> Tunisie </pays>
+        <ville> Sfax </ville>
+        <adresse> Agence : 4, Avenue de l'armée 3000 Sfax </adresse>
+        <tel> (00216) 74 228 028  , (00216) 74 297 080  , (00216) 74 296 631 </tel>
+        <fax></fax>
+        <mail> </mail>
+        <InfosPratiques> Taxi : 2,500 TND </InfosPratiques>
+        <latitude>34.73854</latitude>
+        <longitude>10.76377 </longitude>
+    </agence>    
+	<agence>
+        <pays> Tunisie</pays>
+        <ville> Tozeur </ville>
+        <adresse> Agence : Farhat Hached Nefta 2200 - Tozeur </adresse>
+        <tel> (00216) 76 470 038 , (00216) 76 472 377 , (00216) 76 472 377 </tel>
+        <fax> (00216) 76 470 033 </fax>
+        <mail> </mail>
+        <InfosPratiques> Taxi : 1,500 TND </InfosPratiques>
+        <latitude>33.92131</latitude>
+        <longitude>8.12371 </longitude>
+    </agence>    
+	<agence>
+        <pays> Tunisie </pays>
+        <ville> Djerba </ville>
+        <adresse> Réservation agence: Aéroport Djerba- Zarzis (9km) centre d’exploitation APT </adresse>
+        <tel> (00216) 75 653 537 , (00216) 75 650 233 , (00216) 75 653 530 </tel>
+        <fax> (00216) 75 651 812 </fax>
+        <mail> </mail>
+        <InfosPratiques> Representation : Habib Bourguiba Houmt-souk  tel : (00216) 75 650 159/320  fax : (00216) 75 653 104</InfosPratiques>
+        <latitude> 33.87148 </latitude>
+        <longitude> 10.77592 </longitude>
+    </agence>    
+    <agence>
+        <pays> Côte d'Ivoire </pays>
+        <ville> Abidjan </ville>
+        <adresse> Galerie Résidence Nabil Plateau, Rue de commerce Adresse Postale : 01 BP 11 642 ABJ 01</adresse>
+        <tel> 00225 20 22 45 40/42/43 </tel>
+        <fax> 00225 20 33 61 54 </fax>
+        <mail> tunisairabj@aviso.ci </mail>
+        <InfosPratiques> </InfosPratiques>
+        <latitude> 5.3172178 </latitude>
+        <longitude> -4.016791699999999 </longitude>
+    </agence>    
+	<agence>
+        <pays> Algerie </pays>
+        <ville> Alger </ville>
+        <adresse> 6 rue Abdelkarim Khatabi Alger 16000 Algérie </adresse>
+        <tel> 00213 2163 5860/5407 </tel>
+        <fax> 00213 2163 5406 </fax>
+        <mail> tunisairalger@yahoo.fr </mail>
+        <InfosPratiques> Aéroport Houari Boumedienne (19 Kms) Escale,Taxi ,700 DZD,Bus : 50 DZD</InfosPratiques>
+        <latitude> 36.752887 </latitude>
+        <longitude> 3.0420480000000225 </longitude>
+    </agence>    
+	<agence>
+        <pays> Hollande </pays>
+        <ville> Amsterdam</ville>
+        <adresse> WTC Schiphol Tour B, 9th floor Schipol boulevard219, 1118 BH Schiphol </adresse>
+        <tel> 0031 207 219 102 </tel>
+        <fax> 0031 20 405 70 99 </fax>
+        <mail> sales@tunisairamsterdam.nl </mail>
+        <InfosPratiques> Bus : 10,5 € ,  Train : 3,9 €  , Taxi : 45 € </InfosPratiques>
+        <latitude> 52.3702157 </latitude>
+        <longitude> 4.895167899999933 </longitude>
+    </agence>    
+	<agence>
+        <pays> Grèce</pays>
+        <ville> Athènes </ville>
+        <adresse> 14, Xenofondos Street, near Syntagma Square Athènes </adresse>
+        <tel> 0030 2103220104/105 </tel>
+        <fax> 0030 2103231985 </fax>
+        <mail> tunisair@otenet.gr </mail>
+        <InfosPratiques> Bus : 3 € , Taxi : 35/40 € </InfosPratiques>
+        <latitude>37.9743801 </latitude>
+        <longitude>23.733270100000027 </longitude>
+    </agence>    
+	<agence>
+        <pays> Mali </pays>
+        <ville> Bamako </ville>
+        <adresse> Complexe Hôtel de l’Amitié Bozola BP : E2240 Bamako Mali </adresse>
+        <tel> 00223 20 21 86 42/43 </tel>
+        <fax> 00223 20 21 86 17 </fax>
+        <mail> tunisairbko@ikatelnet.net </mail>
+        <InfosPratiques> Taxi : 7500 FCFA </InfosPratiques>
+        <latitude> 12.65 </latitude>
+        <longitude> -8 </longitude>
+    </agence>    
+	<agence>
+        <pays> Espagne </pays>
+        <ville> Barcelone </ville>
+        <adresse> Direction : Calle Diputacion n° 279, 3° - 7a 08007 Barcelone Espagne </adresse>
+        <tel> 0034 93 488 10 05 </tel>
+        <fax> 0034 93 487 66 98 </fax>
+        <mail> tunisair.bcn@tunisair.e.telefonica.net </mail>
+        <InfosPratiques> Call Center / Agence Bus : 3,60 €  , Train : 2,40 €  , Taxi : 23 € </InfosPratiques>
+        <latitude> 41.3893581</latitude>
+        <longitude> 2.165629099999933 </longitude>
+    </agence>    
+	<agence>
+        <pays> Lybie </pays>
+        <ville> Benghazi </ville>
+        <adresse> Av. Jamel Abdennaceur Benghazi. Libye Hotel Tibesti N°5 </adresse>
+        <tel> 00218 61 909 69 79  , 00218 61 909 00 16/17 Ext:3056 </tel>
+        <fax> 00218 61 909 65 90 </fax>
+        <mail> </mail>
+        <InfosPratiques> Taxi : 10,000 LYD </InfosPratiques>
+        <latitude> 32.1166667 </latitude>
+        <longitude> 20.06666670000004 </longitude>
+    </agence>    
+	<agence>
+        <pays> Liban </pays>
+        <ville> Beyrouth </ville>
+        <adresse> Place Riadh Elsolh imm. Chaker El Oueini BP. 1531 BEYROUTH Liban </adresse>
+        <tel> 00961 1 980370/1/2/3 </tel>
+        <fax> 00961 1 980374 </fax>
+        <mail> tunisair.beyrouth@dm.net.lb </mail>
+        <InfosPratiques> Bureau Aéroport  ,   tel : 00961 1 628251 , fax : 00961 1 628251 Taxi : 10 USD</InfosPratiques>
+        <latitude> 34.4410415 </latitude>
+        <longitude> 35.828670099999954 </longitude>
+    </agence>    
+	<agence>
+        <pays> Belgique </pays>
+        <ville> Bruxelles (Luxembourg) </ville>
+        <adresse> Av. Louise, 182 1050 Bruxelles Secrétariat de direction </adresse>
+        <tel> 0032 2 627 05 61 </tel>
+        <fax> 0032 2 627 05 71 </fax>
+        <mail>tunisair.bruxelles@skynet.be </mail>
+        <InfosPratiques> Agence/ Réservation Escale zaventem (12km) Train : 5,20 € , Taxi : 30 €</InfosPratiques>
+        <latitude> 50.8279674 </latitude>
+        <longitude> 4.3636816000000636 </longitude>
+    </agence>    
+<agence>
+        <pays> Maroc </pays>
+        <ville> Casablanca </ville>
+        <adresse> Représentation/Agence ville et Réservation Angle rue Mohamed El Fakir et Allal Ben Abdallah7ème étage Casablanca 20 000</adresse>
+        <tel> 00212 05 22 201488 , 00212 05 22 293452 , 00212 05 22 274807 </tel>
+        <fax> 00212 05 22 206012 </fax>
+        <mail> tunisaircasa@menara.ma </mail>
+        <InfosPratiques> Aéroport Mohamed V (35 Kms) , tel : 00212 05 22 539653 , mail : escalecasa@menara.ma ,  fax : 00212 05 22 539653
+Taxi : 250 MAD , Train : 40 MAD </InfosPratiques>
+        <latitude> 33.5937695 </latitude>
+        <longitude> -7.608585199999993 </longitude>
+    </agence>    
+	<agence>
+        <pays> Sénégal </pays>
+        <ville> Dakar </ville>
+        <adresse> 24, AV. Léopold Sedar Senghor </adresse>
+        <tel> 00221 33 823 14 35 , 00221 33 823 70 23 </tel>
+        <fax> 00221 33 823 47 43</fax>
+        <mail> </mail>
+        <InfosPratiques> Bus : 250 FCFA  , Taxi Jour : 3.000 FCFA , Taxi Nuit : 4.000 FCFA </InfosPratiques>
+        <latitude> 14.7645042 </latitude>
+        <longitude> -17.366028599999936 </longitude>
+    </agence>    
+	<agence>
+        <pays> Syrie </pays>
+        <ville> Damas </ville>
+        <adresse> Rue Mayssaloun Face Chan place HTL Représentation </adresse>
+        <tel> 00963 11 2455462 </tel>
+        <fax></fax>
+        <mail> tunisair.dam@juliadumna.com </mail>
+        <InfosPratiques> Réservation , tel : 00963 11 2225626 , 00963 11 2248887 ,  fax :  00963 11 2229998 , 00963 11 2316821	 
+Bus : 25 SYP </InfosPratiques>
+        <latitude> 33.5111 </latitude>
+        <longitude> 36.3064 </longitude>
+    </agence>    
+	<agence>
+        <pays> Emirates </pays>
+        <ville> Dubai </ville>
+        <adresse> PO Box 1020 Dubai Al Maktoum Sreet Al Mazroui Blong-Dubai </adresse>
+        <tel> 00971 4 2211176 , 00971 4 2222007 </tel>
+        <fax> 00971 4 2232109 </fax>
+        <mail> tunisair@emirates.net.ae </mail>
+        <InfosPratiques> </InfosPratiques>
+        <latitude> 25.2599936 </latitude>
+        <longitude> 55.322500200000036 </longitude>
+    </agence>    
+	<agence>
+        <pays> Alemagne </pays>
+        <ville> Dusseldorf </ville>
+        <adresse> Berliner Allée 47 ,40212 - Düsseldorf </adresse>
+        <tel> 0049 211 3230916/18 </tel>
+        <fax> 0049 211 132471 </fax>
+        <mail> duesseldorf@tunisair.de </mail>
+        <InfosPratiques> Métro : 5 € , Taxi : 20 € </InfosPratiques>
+        <latitude> 51.2206554 </latitude>
+        <longitude> 6.781702499999938 </longitude>
+    </agence>    
+	<agence>
+        <pays>Alemagne </pays>
+        <ville>Franckfurt (Hambourg, Berlin) </ville>
+        <adresse>Kaiserstr. 44, 60329 Frankfurt/Main </adresse>
+        <tel>0049 69 27 10 01 0 </tel>
+        <fax>0049 69 27 10 01 35 </fax>
+        <mail>promotion.fra@tunisair.de  </mail>
+        <InfosPratiques>Aéroport BP : 23, 60549 Frankfurt Ticket counter 531, Terminal 1 Halle B ,Train : 5 €  , Taxi : 30 €</InfosPratiques>
+        <latitude>50.1090428 </latitude>
+        <longitude>8.669879100000003 </longitude>
+    </agence>    
+<agence>
+        <pays> Suisse</pays>
+        <ville>Genève </ville>
+        <adresse>Agence : 5, rue du Mont-Blanc 1201 Genève </adresse>
+        <tel>0041(0)840 07 07 07 </tel>
+        <fax>0041(0)22 738 08 09 </fax>
+        <mail>reservation@tunisair.ch </mail>
+        <InfosPratiques>Direction: 5, rue du Mont-Blanc 1201 Genève  </InfosPratiques>
+        <latitude>46.2073708 </latitude>
+        <longitude>6.146550100000013 </longitude>
+    </agence>    
+<agence>
+        <pays>Turkie </pays>
+        <ville> Istanbul</ville>
+        <adresse>Valikonagi Cad Bizim Apt 8/1 Nisantasi Istanbul </adresse>
+        <tel>0090212 2417097 , 0090212 2258853 </tel>
+        <fax>0090212 2311054 </fax>
+        <mail> info@tunisairturquie.com </mail>
+        <InfosPratiques>Bus : 6 USD , Taxi : 20 USD </InfosPratiques>
+        <latitude>40.98137699999999 </latitude>
+        <longitude>28.768902000000026 </longitude>
+    </agence>    
+<agence>
+        <pays> Arabie Saoudite</pays>
+        <ville>Jeddah </ville>
+        <adresse>Adham com.center Medina Road p.o box 1240 Jeddah 21431 </adresse>
+        <tel>00966 2 653 0881/89 , 00966 2 651 2120 </tel>
+        <fax> 00966 2 651 5020</fax>
+        <mail> </mail>
+        <InfosPratiques> Aéroport King Abdelaziz North Terminal (40 Kms)  , tel : 00966 2 685 3065
+Taxi : 50 SAR</InfosPratiques>
+        <latitude>24.0020775 </latitude>
+        <longitude> 38.19049359999997</longitude>
+    </agence>    
+<agence>
+        <pays> koweit</pays>
+        <ville>koweit </ville>
+        <adresse>FAHD EL SALEM STREET NR 16/17 PO Box 21860 SAFAT, 13079 STATE OF KUWAIT </adresse>
+        <tel>00965 2414066 </tel>
+        <fax> 00965 2451331</fax>
+        <mail>tunisairkwt@alsayergroup.com </mail>
+        <InfosPratiques> </InfosPratiques>
+        <latitude>29.3673691 </latitude>
+        <longitude>47.96771769999998 </longitude>
+    </agence>    
+<agence>
+        <pays>Egypt  </pays>
+        <ville>Le Caire </ville>
+        <adresse>14, rue Talâat Harb Av. 11776 Le Caire Aéroport International du Caire (20km) </adresse>
+        <tel>00202 5753971/420 </tel>
+        <fax>00202 5740677 </fax>
+        <mail>tunisair.egypt@yahoo.fr </mail>
+        <InfosPratiques> Taxi : 45 EGP , Bus : 2 EGP  </InfosPratiques>
+        <latitude>30.0475233 </latitude>
+        <longitude>31.23831419999999 </longitude>
+    </agence>    
+<agence>
+        <pays>Portugal </pays>
+        <ville>Lisbonne </ville>
+        <adresse>Aeroporto de Lisboa Rua c. Edifisio 124 Piso Gabinete 1 A1700 Lisboa-Portugal </adresse>
+        <tel>00351 21 849 63 50 </tel>
+        <fax>00351 21 849 63 46 </fax>
+        <mail>tunisair-reservas@mail.telepoc.pt </mail>
+        <InfosPratiques> Taxi : 15 € , Bus : 3 €</InfosPratiques>
+        <latitude>38.7704 </latitude>
+        <longitude>-9.129099999999994 </longitude>
+    </agence>
+</Tunisair>
+
+        
+
+
+
+        
+

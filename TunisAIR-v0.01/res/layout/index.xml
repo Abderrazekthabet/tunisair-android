@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_v01"
+    android:gravity="top" >
+
+   <LinearLayout
+       android:id="@+id/llIndex"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical" >
+
+       <Button
+           android:id="@+id/btnvoldujours"
+           android:layout_width="202dp"
+           android:layout_height="63dp"
+           android:layout_gravity="center_horizontal"
+           android:layout_marginTop="120dp"
+           android:background="@drawable/btn_horaire" />
+
+       <Button
+           android:id="@+id/btnreservation"
+           android:layout_width="202dp"
+           android:layout_height="63dp"
+           android:layout_gravity="center_horizontal"
+           android:layout_marginTop="20dp"
+           android:background="@drawable/btn_mesreservation" />
+
+    <Button
+        android:id="@+id/btnagence"
+        android:layout_width="202dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_contacternous" />
+
+    </LinearLayout>
+<TableLayout  android:layout_width="match_parent"
+			    android:layout_height="63dp"
+			    android:layout_gravity="bottom" 
+			    android:baselineAligned="true">
+    <TableRow>
+               <Button
+                   android:id="@+id/btnfidelys"
+                   android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+                  android:layout_weight="5"
+                   android:background="@drawable/btn_fidelys" />
+               <Button
+            android:id="@+id/btnpn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="5"
+            android:background="@drawable/btn_espacepn" />
+    </TableRow>
+    
+    
+</TableLayout>       
+
+</FrameLayout>

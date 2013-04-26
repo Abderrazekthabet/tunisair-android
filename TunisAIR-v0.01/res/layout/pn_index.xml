@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background_v01">
+
+    <Button
+        android:id="@+id/btn_prog"
+        android:layout_width="202dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center_horizontal"
+        
+        android:layout_marginTop="120dp"
+        
+        android:background="@drawable/btn_programmevolpn" />
+
+    <Button
+        android:id="@+id/btn_equipage"
+         android:layout_width="202dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center_horizontal"
+        
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_equipagedunvol"/>
+
+</LinearLayout>
