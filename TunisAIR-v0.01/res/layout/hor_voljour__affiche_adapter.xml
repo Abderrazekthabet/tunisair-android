@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Main_Voljour_Affiche" 
+   android:background="@android:color/transparent">
+
+    
+    
+    
+    <TextView
+        android:id="@+id/tv1_voljour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#FF0000"
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:id="@+id/tv2_voljour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv1_voljour"
+        android:layout_below="@+id/tv1_voljour"
+        android:textColor="#FF0000"
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:id="@+id/tv3_voljour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv2_voljour"
+        android:layout_below="@+id/tv2_voljour"
+        android:textColor="#FF0000"
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:id="@+id/tv4_voljour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv3_voljour"
+        android:layout_below="@+id/tv3_voljour"
+        android:textColor="#FF0000"
+        android:text="@string/hello_world" />
+
+</RelativeLayout>
