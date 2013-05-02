@@ -24,7 +24,6 @@ public class Res_11_ReservationTab extends TabActivity implements OnTabChangeLis
 		tabHost.setup();
 		
 		Intent intent1 = new Intent(this,Res_21_Aff_Reservation.class);
-		
 		addTab("Tab1", "Reservation", R.drawable.ic_avion,intent1);
 		
 		Intent intent2 = new Intent(this,Res_22_Meteo.class);

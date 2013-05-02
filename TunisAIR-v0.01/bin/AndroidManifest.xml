@@ -19,7 +19,8 @@
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <!--
      The following two permissions are not required to use
-     Google Maps Android API v2, but are recommended.
+     Google Maps Android API v2, but are recommended.
+
     -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -66,11 +67,11 @@
             android:name="com.tunisair.main.Res_01_Index"
             android:label="app_Reservation" >
         </activity>
-		<activity
-	            android:name="com.tunisair.main.Res_21_Aff_Reservation"
-	            android:label="app_Aff_Reservation" >
-	    </activity>
-	    <activity
+                <activity
+                    android:name="com.tunisair.main.Res_21_Aff_Reservation"
+                    android:label="app_Aff_Reservation" >
+            </activity>
+            <activity
             android:name="com.tunisair.main.Res_22_Meteo"
             android:label="app_Meteo" >
         </activity>
@@ -93,6 +94,14 @@
         <activity
             android:name="com.tunisair.main.PN_Equipage"
             android:label="app_PN_Equipage" >
+        </activity>
+        <activity
+            android:name="com.tunisair.main.Authenti_Personel"
+            android:label="app_Authenti_Personel" >
+        </activity>
+        <activity
+            android:name="com.tunisair.main.Authenti_User"
+            android:label="app_Authenti_User" >
         </activity>
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"

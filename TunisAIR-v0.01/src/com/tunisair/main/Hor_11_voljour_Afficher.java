@@ -34,9 +34,9 @@ public class Hor_11_voljour_Afficher extends Activity {
 		a = extra.getString("a");
 		
 		tvDepart = (TextView) findViewById(R.id.tv_depart);
-		tvDepart.setText("DÃ©part: "+ de);
+		tvDepart.setText("Départ: "+ de);
 		tvArrivee = (TextView) findViewById(R.id.tv_arrivee);
-		tvArrivee.setText("ArrivÃ©e: "+ a);
+		tvArrivee.setText("Arrivée: "+ a);
 		
 
 		UserFunction u =new UserFunction();

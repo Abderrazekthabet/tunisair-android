@@ -14,7 +14,7 @@ public class UserFunction {
 
 	
     
-	String url 					= "http://192.168.1.3/TunisAIR/Index-.php";
+	String url 					= "http://192.168.1.4/TunisAIR/Index-.php";
     String tag_horaire 			= "horaire_vol";
     String tag_loginUser		= "loginUser";
     String tag_loginPerso		= "loginPerso";
@@ -62,8 +62,8 @@ public class UserFunction {
 		
 		ArrayList<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>();
 		nameValuePairs.add(new BasicNameValuePair("tag",tag_loginUser));
-		nameValuePairs.add(new BasicNameValuePair("depart",_email));
-		nameValuePairs.add(new BasicNameValuePair("arrivee",_password));
+		nameValuePairs.add(new BasicNameValuePair("email",_email));
+		nameValuePairs.add(new BasicNameValuePair("pass",_password));
 		JSONParse j = new JSONParse();
 		try {
 			JSONObject jObject = new JSONObject(j.getServerData(url, nameValuePairs));
@@ -80,8 +80,8 @@ public class UserFunction {
 		
 		ArrayList<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>();
 		nameValuePairs.add(new BasicNameValuePair("tag",tag_loginPerso));
-		nameValuePairs.add(new BasicNameValuePair("depart",_email));
-		nameValuePairs.add(new BasicNameValuePair("arrivee",_password));
+		nameValuePairs.add(new BasicNameValuePair("email",_email));
+		nameValuePairs.add(new BasicNameValuePair("pass",_password));
 		nameValuePairs.add(new BasicNameValuePair("matricule",_matricule));
 		JSONParse j = new JSONParse();
 		try {
