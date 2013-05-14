@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.StrictMode;
 
-import com.esprit.main.R;
+import com.tunisair.main.R;
 
 
 public class Splash extends Activity {
@@ -37,7 +37,7 @@ public class Splash extends Activity {
 				Splash.this.startActivity(intent);
 				Splash.this.finish();
 			}
-		}, 3000);
+		}, 1000);
 		
 	}
 
