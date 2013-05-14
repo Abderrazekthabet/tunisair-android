@@ -38,16 +38,28 @@
             android:onClick="onClickMap"
             android:maxWidth="@dimen/activity_vertical_margin"
             android:src="@drawable/carte" />
+		<com.tunisair.resource.MyAutoCompleteTextView
+	    android:id="@+id/ac_pays"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginRight="10dp"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginTop="15dp"
+	    android:ems="10"
+        android:hint="Choisissez un Pays... " />
+
+           
 
         <Spinner
-            android:id="@+id/spPays"
+            android:id="@+id/sp_Ville"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="15dp"
             android:background="@drawable/btn_spinner"
-            android:textAlignment="gravity" />
+            android:textAlignment="gravity" 
+            android:visibility="gone"/>
 
     </LinearLayout>
 
