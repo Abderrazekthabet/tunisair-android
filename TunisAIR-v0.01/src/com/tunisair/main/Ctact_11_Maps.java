@@ -12,10 +12,13 @@ import javax.xml.parsers.SAXParserFactory;
 import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
 
+import android.content.res.AssetManager;
+import android.location.Location;
+import android.location.LocationListener;
+import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+import android.view.Menu;
 
-
-
-import com.esprit.main.R;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
@@ -25,27 +28,19 @@ import com.tunisair.libs.OrderXMLHandler;
 import com.tunisair.model.Agence;
 
 
-
-import android.content.res.AssetManager;
-import android.location.Location;
-import android.location.LocationListener;
-import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
-import android.view.Menu;
-
-
 public class Ctact_11_Maps extends FragmentActivity implements LocationListener {
        
         GoogleMap googlemap;
-       
+        
        
         @Override
         protected void onCreate(Bundle savedInstanceState) {
                 super.onCreate(savedInstanceState);
                 setContentView(R.layout.ctact_maps);
-                               
+                String pays = getIntent().getExtras().getString("pays");
+                             
                 initMap();
-                addTwittertoMap();
+                addTwittertoMap(pays);
                
         }
        
@@ -57,7 +52,7 @@ public class Ctact_11_Maps extends FragmentActivity implements LocationListener 
                 googlemap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
         }
        
-        private void addTwittertoMap() {
+        private void addTwittertoMap(String _pays) {
                
                 AssetManager assetManager = getBaseContext().getAssets();
                 try {
@@ -74,19 +69,34 @@ public class Ctact_11_Maps extends FragmentActivity implements LocationListener 
                                
                                
                         for (Agence agence : agences) {
-                                double la,lon;
-                                String title="";
-                                String snippet="";
-                                title = agence.getVille();
-                                snippet = agence.getAdresse();
-                                la = Double.parseDouble(agence.getLat());
-                                lon = Double.parseDouble(agence.getLongi());
-                                LatLng pos = new LatLng(la, lon);
-                                googlemap.addMarker(new MarkerOptions()
-                                 .title(title)
-                                 .snippet(snippet)
-                                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE))
-                                 .position(pos));
+                        	if(_pays.equals("")){
+                        	double la,lon;
+                            String title="";
+                            String snippet="";
+                            title = agence.getVille();
+                            snippet = agence.getAdresse();
+                            la = Double.parseDouble(agence.getLat());
+                            lon = Double.parseDouble(agence.getLongi());
+                            LatLng pos = new LatLng(la, lon);
+                            googlemap.addMarker(new MarkerOptions()
+                             .title(title)
+                             .snippet(snippet)
+                             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE))
+                             .position(pos));}else if(_pays.equals(agence.getPays())){
+                        	double la,lon;
+                            String title="";
+                            String snippet="";
+                            title = agence.getVille();
+                            snippet = agence.getAdresse();
+                            la = Double.parseDouble(agence.getLat());
+                            lon = Double.parseDouble(agence.getLongi());
+                            LatLng pos = new LatLng(la, lon);
+                            googlemap.addMarker(new MarkerOptions()
+                             .title(title)
+                             .snippet(snippet)
+                             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE))
+                             .position(pos));}
+                                
                         }
 
                 } catch (Exception e) {}
