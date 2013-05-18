@@ -73,6 +73,7 @@ public class Authenti_User extends Activity {
 								session.createLoginSession(j.toString());
 								Log.i("Session Result", j.toString());
 								startActivityForResult(intent, 0);
+								finish();
 							}else {
 								Toast.makeText(getBaseContext(), "Invalid Login Détails", Toast.LENGTH_SHORT).show();
 							}	

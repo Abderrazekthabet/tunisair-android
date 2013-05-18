@@ -48,8 +48,6 @@ public class OrderXMLHandler extends DefaultHandler {
 			agence.setFax(currentValue.trim());
 		}if (qName.equalsIgnoreCase("mail")) {
 			agence.setMail(currentValue.trim());
-		}else if (qName.equalsIgnoreCase("InfosPratiques")) {
-			agence.setInfosPratiques(currentValue.trim());
 		}else if (qName.equalsIgnoreCase("latitude")) {
 			agence.setLat(currentValue.trim());
 		}if (qName.equalsIgnoreCase("longitude")) {

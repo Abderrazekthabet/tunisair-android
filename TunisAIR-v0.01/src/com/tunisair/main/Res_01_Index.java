@@ -1,6 +1,6 @@
 package com.tunisair.main;
 
-import com.esprit.main.R;
+import com.tunisair.main.R;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -19,8 +19,8 @@ public class Res_01_Index extends Activity implements OnClickListener {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.res_reservation);
-		etNom = (EditText) findViewById(R.id.editText1);
-		etNum = (EditText) findViewById(R.id.editText2);
+		etNom = (EditText) findViewById(R.id.et_profil_nom);
+		etNum = (EditText) findViewById(R.id.et_profil_prenom);
 		btnAff = (Button) findViewById(R.id.affich);
 		btnAff.setOnClickListener(this);
 		

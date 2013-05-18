@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.esprit.main.R;
+import com.tunisair.main.R;
 
 
 public class Res_21_Aff_Reservation extends Activity  {

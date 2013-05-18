@@ -6,21 +6,26 @@ import org.json.JSONObject;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
-import com.esprit.main.R;
+import com.tunisair.libs.SessionManager;
 import com.tunisair.libs.UserFunction;
+import com.tunisair.main.R;
 
 public class PN_Programme extends Activity {
        
+		SessionManager session;
+	
         @Override
         protected void onCreate(Bundle savedInstanceState) {
                 // TODO Auto-generated method stub
                 super.onCreate(savedInstanceState);
                 setContentView(R.layout.pn_programme);
-       
+                session = new SessionManager(getApplicationContext());
        
                
                
@@ -64,6 +69,20 @@ public class PN_Programme extends Activity {
                
                
         }
-
+        
+        @Override
+    	public boolean onCreateOptionsMenu(Menu menu) {
+    		// TODO Auto-generated method stub
+    		getMenuInflater().inflate(R.menu.main_quitter, menu);
+            return true;
+    	}
+    	
+    	@Override
+    	public boolean onMenuItemSelected(int featureId, MenuItem item) {
+    		session.logoutUser();
+    		finish();
+    		return super.onMenuItemSelected(featureId, item);
+    	}
+        
 }
 

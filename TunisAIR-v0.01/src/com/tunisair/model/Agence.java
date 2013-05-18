@@ -10,21 +10,17 @@ public class Agence {
 	String tel = "";
 	String fax = "";
 	String mail = "";
-	String infosPratiques = "";
+	String lat = "";
+	String longi = "";
+	
 	public String getPays() {
 		return pays;
 	}
 	public void setPays(String pays) {
 		this.pays = pays;
 	}
-	public String getInfosPratiques() {
-		return infosPratiques;
-	}
-	public void setInfosPratiques(String infosPratiques) {
-		this.infosPratiques = infosPratiques;
-	}
-	String lat = "";
-	String longi = "";
+	
+	
 	
 	public String getVille() {
 		return ville;

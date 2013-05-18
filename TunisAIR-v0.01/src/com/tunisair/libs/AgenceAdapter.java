@@ -2,7 +2,7 @@ package com.tunisair.libs;
 
 import java.util.List;
 
-import com.esprit.main.R;
+import com.tunisair.main.R;
 import com.tunisair.model.Agence;
 
 
@@ -61,7 +61,7 @@ public class AgenceAdapter extends BaseAdapter {
 			holder.txtTel = (TextView) convertView.findViewById(R.id.tv_agTel);
 			holder.txtFax = (TextView) convertView.findViewById(R.id.tv_agFax);
 			holder.txtMail = (TextView) convertView.findViewById(R.id.tv_agMail);
-			holder.txtInfosPratiques = (TextView) convertView.findViewById(R.id.tv_agInfosPratiques);
+			
 			convertView.setTag(holder);
 			
 		} else {
@@ -73,7 +73,7 @@ public class AgenceAdapter extends BaseAdapter {
 		holder.txtTel.setText("Tél: "+mAgences.get(position).getTel());
 		holder.txtFax.setText("Fax: "+mAgences.get(position).getFax());
 		holder.txtMail.setText("E-Mail: "+mAgences.get(position).getMail());
-		holder.txtInfosPratiques.setText("InfosPratiques: "+mAgences.get(position).getInfosPratiques());
+		
 		
 		return convertView;
 	}
@@ -84,7 +84,7 @@ public class AgenceAdapter extends BaseAdapter {
 		public TextView txtAdresse;
 		public TextView txtTel;
 		public TextView txtFax;
-		public TextView txtInfosPratiques;
+		
 		public TextView txtMail;
 	}
 

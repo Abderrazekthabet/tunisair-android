@@ -13,7 +13,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
@@ -45,7 +44,7 @@ public class Ctact_01_Agence extends Activity {
                 super.onCreate(savedInstanceState);
                 setContentView(R.layout.ctact_agence);
                 findView();
-                Log.i("Tagggggg", paysIntent);
+                
                 
                
                         
@@ -54,6 +53,7 @@ public class Ctact_01_Agence extends Activity {
         private ArrayList<Agence> getParseXML() {
                 AssetManager assetManager = getBaseContext().getAssets();
                 try {
+                	
                         InputStream is = assetManager.open("agence-tu.xml");
                         SAXParserFactory spf = SAXParserFactory.newInstance();
                         SAXParser sp = spf.newSAXParser();
@@ -118,7 +118,7 @@ public class Ctact_01_Agence extends Activity {
 						int position, long arg3) {
                   // paysIntent = agencesPays.get(position);
                    final ArrayList<String> agencesVilles = new ArrayList<String>();
-                   
+                   paysIntent = acPays.getText().toString();
                    int i =0;
                	for (Agence agence : agences ) {
                        
@@ -128,12 +128,12 @@ public class Ctact_01_Agence extends Activity {
                                        i=1;
                                }      
                        }
-                       if(i==0 && agence.getPays().equals(agencesPays.get(position))){
+                       if(i==0 && agence.getPays().equals(paysIntent)){
                     	   agencesVilles.add(agence.getVille());
                        }
                        i=0; 
                	}
-               	paysIntent = agencesPays.get(position);
+               	
                	imgbtn.setOnClickListener(new OnClickListener() {
                     
                     @Override

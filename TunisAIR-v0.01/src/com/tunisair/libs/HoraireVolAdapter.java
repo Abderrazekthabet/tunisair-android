@@ -4,7 +4,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.esprit.main.R;
+import com.tunisair.main.R;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -51,9 +51,12 @@ public class HoraireVolAdapter extends BaseAdapter {
 			
 			holder = new ViewHolder();
 			convertView = layoutInflater.inflate(R.layout.hor_voljour__affiche_adapter,parent, false);
-			holder.numVol = (TextView) convertView.findViewById(R.id.tv1_voljour);
-			holder.destDepart = (TextView) convertView.findViewById(R.id.tv2_voljour);
-			holder.destArrivee= (TextView) convertView.findViewById(R.id.tv3_voljour);
+			holder.numVol = (TextView) convertView.findViewById(R.id.tv_numvol);
+			holder.destDepart = (TextView) convertView.findViewById(R.id.tv_depart);
+			holder.destArrivee= (TextView) convertView.findViewById(R.id.arrivee);
+			holder.hdepart = (TextView) convertView.findViewById(R.id.dep_prog) ;
+			holder.harrivee =(TextView) convertView.findViewById(R.id.arr_prog);
+			
 			convertView.setTag(holder);
 		}else {
 			holder = (ViewHolder) convertView.getTag();
@@ -61,9 +64,11 @@ public class HoraireVolAdapter extends BaseAdapter {
 		
 		try {
 			jsonObject = jArray.getJSONObject(position);
-			holder.numVol.setText("Num Vol: "+ jsonObject.getString("Num_vol"));
-			holder.destDepart.setText("Départ: "+ jsonObject.getString("Destination_depart"));
-			holder.destArrivee.setText("Arrivée: "+ jsonObject.getString("Destination_arrivee"));
+			holder.numVol.setText(jsonObject.getString("numero"));
+			holder.destDepart.setText(jsonObject.getString("depart"));
+			holder.destArrivee.setText(jsonObject.getString("arrivee"));
+			holder.hdepart.setText(jsonObject.getString("dep_prog"));
+			holder.harrivee.setText(jsonObject.getString("arr_prog"));
 			
 			
 		} catch (JSONException e) {
@@ -77,6 +82,9 @@ public class HoraireVolAdapter extends BaseAdapter {
 		public TextView numVol;
 		public TextView destDepart;
 		public TextView destArrivee;
+		public TextView hdepart;
+		public TextView harrivee;
+		
 
 		
 	}

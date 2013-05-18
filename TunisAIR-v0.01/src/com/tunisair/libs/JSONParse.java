@@ -56,8 +56,9 @@ public String getServerData(String url, ArrayList<NameValuePair> nameValuePairs)
             }
             is.close();
             result=sb.toString();
+            Log.i("StringPHP",result);
         }catch(Exception e){
-            Log.e("log_tag", "Error converting result " + e.toString());
+            Log.e("StringPHP", "Error converting result " + e.toString());
         }
         
         
