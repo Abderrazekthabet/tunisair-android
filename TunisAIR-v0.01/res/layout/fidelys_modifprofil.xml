@@ -6,12 +6,12 @@
     android:background="@drawable/background_v01">
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/et_profil_nom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/textView1"
         android:layout_alignBottom="@+id/textView1"
-        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignLeft="@+id/et_profil_prenom"
         android:ems="10" >
 
         <requestFocus />
@@ -21,14 +21,14 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText1"
+        android:layout_below="@+id/et_profil_nom"
         android:layout_marginRight="18dp"
         android:layout_marginTop="42dp"
-        android:layout_toLeftOf="@+id/editText2"
+        android:layout_toLeftOf="@+id/et_profil_prenom"
         android:text="Nouveau Nom" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/et_profil_prenom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/textView2"
@@ -46,13 +46,13 @@
         android:text="Nouveau Prenom" />
 
     <Button
-        
+        android:id="@+id/btn_valider"
         android:layout_width="120dp"
         android:layout_height="50dp"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/et_profil_prenom"
         android:layout_marginTop="14dp"
-        android:onClick="onClickM"
+        
         android:background="@drawable/btn_valider" />
 
 </RelativeLayout>
