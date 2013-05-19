@@ -1,19 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabrow_pn_aff"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >   
-    
-        <TextView
-        android:id="@+id/tvTLC"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" > </TextView>
-        <TextView android:id="@+id/tvSecteur"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" ></TextView>
-        
-    
-    
+    android:layout_height="match_parent" >
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/tv_pn_numvol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:layout_weight="14"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/tv_pn_dateDep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:layout_weight="15"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/tv_pn_hDep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:layout_weight="13"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/tv_pn_dateArr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_weight="15" 
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/tv_pn_hArr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:layout_weight="13"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/tv_pn_destDep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:layout_weight="15"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/tv_pn_destArr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:layout_weight="15"
+        android:textSize="12dp"/>
+
+</TableRow>
