@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top"
+    android:orientation="vertical" 
+    android:background = "@drawable/background01">
+
+    <LinearLayout
+        android:id="@+id/llimgcarte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+       
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:text="TunisAIR dans le Monde" />
+
+        <ImageButton
+            android:id="@+id/imgcarte"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:onClick="onClickMap"
+            android:maxWidth="@dimen/activity_vertical_margin"
+            android:src="@drawable/carte" />
+		<com.tunisair.resource.MyAutoCompleteTextView
+	    android:id="@+id/ac_pays"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginRight="10dp"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginTop="15dp"
+	    android:ems="10"
+        android:hint="Choisissez un Pays... " />
+
+           
+
+        <Spinner
+            android:id="@+id/sp_Ville"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_spinner"
+            android:textAlignment="gravity" 
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvListeagence"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/llimgcarte"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        
+        android:background="@android:color/transparent" >
+
+    </ListView>
+</LinearLayout>
+

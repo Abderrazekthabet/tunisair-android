@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/transparent">
+
+    <TextView
+        android:id="@+id/tv_agPays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/hello_world"
+        android:textColor="#FF0000" 
+        android:textSize="16dip"/>
+    <TextView
+        android:id="@+id/tv_agVille"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/hello_world"
+        android:textColor="#FF0000" 
+        android:textSize="16dip"/>
+
+    <TextView
+        android:id="@+id/tv_agAdresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="17dp"
+        android:text="@string/hello_world" 
+        android:textColor="#FF0000"
+        android:textSize="16dip"/>
+
+    <TextView
+        android:id="@+id/tv_agTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="17dp"
+        android:text="@string/hello_world"
+        android:textColor="#FF0000"
+         android:textSize="16dip" />
+
+    <TextView
+        android:id="@+id/tv_agFax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="17dp"
+        android:text="@string/hello_world"
+        android:textColor="#FF0000" 
+        android:textSize="16dip"/>
+
+    <TextView
+        android:id="@+id/tv_agMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="17dp"
+        android:text="@string/hello_world" 
+        android:textColor="#FF0000"
+        android:textSize="16dip"/>
+    <TextView
+        android:id="@+id/tv_agInfosPratiques"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/hello_world"
+        android:textColor="#FF0000" 
+        android:textSize="16dip"/>
+
+</LinearLayout>
