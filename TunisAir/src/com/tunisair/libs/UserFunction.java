@@ -12,12 +12,12 @@ import android.util.Log;
 
 public class UserFunction {
 	JSONParse jParse;
-	String ip ="192.168.1.2";
+	
     
-	String urlLogin 			= "http://"+ip+"/TunisAIR/Login.php";
-	String urlPn				= "http://"+ip+"/TunisAIR/Pn.php";
-	String urlFidekys			= "http://"+ip+"/TunisAIR/Fidelys.php";
-	String urlVolj				= "http://"+ip+"/TunisAIR/Volj.php";
+	String urlLogin 			= "http://"+getIP()+"/TunisAIR/Login.php";
+	String urlPn				= "http://"+getIP()+"/TunisAIR/Pn.php";
+	String urlFidekys			= "http://"+getIP()+"/TunisAIR/Fidelys.php";
+	String urlVolj				= "http://"+getIP()+"/TunisAIR/Volj.php";
     String tag_horaire 			= "horaire_vol";
     String tag_loginUser		= "loginUser";
     String tag_loginPerso		= "loginPerso";
@@ -27,7 +27,9 @@ public class UserFunction {
     public UserFunction() {
     	jParse = new JSONParse();
 	}
-	
+    public String getIP(){
+		return "192.168.1.7";
+	}
     
 	public JSONArray horair(String _de, String _a ){
 			
@@ -131,6 +133,10 @@ public class UserFunction {
 			return null;
 		}
 	}
+	
+	
+	
+	
 	
 	
 }
