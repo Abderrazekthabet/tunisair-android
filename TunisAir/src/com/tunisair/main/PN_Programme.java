@@ -12,6 +12,7 @@ import android.support.v4.app.FragmentActivity;
 import android.webkit.WebView;
 
 import com.tunisair.libs.SessionManager;
+import com.tunisair.libs.UserFunction;
 
 @SuppressLint("NewApi")
 public class PN_Programme extends FragmentActivity {
@@ -34,7 +35,7 @@ public class PN_Programme extends FragmentActivity {
     	try {
 			JSONObject j = new JSONObject(result);
 			wv = (WebView) findViewById(R.id.wb_progpn);
-	         wv.loadUrl("http://192.168.1.3/TunisAIR/progPn.php?tlc="+j.getString("TLC"));
+	         wv.loadUrl("http://"+new UserFunction().getIP()+"/TunisAIR/progPn.php?tlc="+j.getString("TLC"));
              
 		
        
