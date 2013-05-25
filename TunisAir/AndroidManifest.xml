@@ -11,6 +11,14 @@
     <permission
         android:name="com.tunisair.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
+    <permission
+	android:name="com.tunisair.main.permission.C2D_MESSAGE"
+	android:protectionLevel="signature" />
+	<uses-permission android:name="com.sagar.gcma.permission.C2D_MESSAGE" />
+ 
+	<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <uses-permission android:name="com.tunisair.main.permission.MAPS_RECEIVE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -24,7 +32,7 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-
+	<uses-permission android:name="android.permission.VIBRATE" />
     <uses-feature
         android:glEsVersion="0x00020000"
         android:required="true" />
@@ -52,26 +60,37 @@
         
         <activity
             android:name="com.tunisair.main.Ctact_11_Maps"
-            android:label="app_maps" >
+            android:label="Map" >
         </activity>
         
         
         <activity
             android:name="com.tunisair.main.PN_Programme"
-            android:label="app_Programme" >
+            android:label="Programme Mensuel" >
         </activity>
         <activity
             android:name="com.tunisair.main.PN_Index"
-            android:label="app_Index" >
+            android:label="Espace P.Navigon" >
         </activity>
         <activity
             android:name="com.tunisair.main.Fidelys_index"
-            android:label="app_Fidelys_index" >
+            android:label="Espace Fidelys" >
         </activity>
         <activity
             android:name="com.tunisair.main.Hor_01_Voldujour"
-            android:label="app_Fidelys_Hor_01_Voldujour" >
+            android:label="Vol du jour" >
         </activity>
+        <receiver android:name="com.google.android.gcm.GCMBroadcastReceiver"
+				  android:permission="com.google.android.c2dm.permission.SEND" >
+			<intent-filter>
+					<action android:name="com.google.android.c2dm.intent.RECEIVE" />
+					<action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+ 
+					<category android:name="com.tunisair.main" />
+			</intent-filter>
+		</receiver>
+ 
+		<service android:name="com.tunisair.main.GCMIntentService" />
         
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
