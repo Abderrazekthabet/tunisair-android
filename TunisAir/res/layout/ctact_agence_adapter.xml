@@ -1,76 +1,137 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" 
-    android:background="@android:color/transparent">
+    android:layout_height="match_parent" >
 
-    <TextView
-        android:id="@+id/tv_agPays"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="17dp"
-        android:layout_marginTop="10dp"
-        android:text="@string/hello_world"
-        android:textColor="#FF0000" 
-        android:textSize="16dip"/>
-    <TextView
-        android:id="@+id/tv_agVille"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="17dp"
-        android:layout_marginTop="10dp"
-        android:text="@string/hello_world"
-        android:textColor="#FF0000" 
-        android:textSize="16dip"/>
+     <TextView
+         android:id="@+id/pays"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginLeft="28dp"
+         android:layout_marginTop="36dp"
+         android:text="Pays "
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="#0b48ab"
+         android:textSize="16dp" />
 
-    <TextView
-        android:id="@+id/tv_agAdresse"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="17dp"
-        android:text="@string/hello_world" 
-        android:textColor="#FF0000"
-        android:textSize="16dip"/>
+     <TextView
+         android:id="@+id/ville"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/pays"
+         android:layout_below="@+id/pays"
+         android:text="Ville "
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="#0b48ab"
+         android:textSize="16dp" />
 
-    <TextView
-        android:id="@+id/tv_agTel"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="17dp"
-        android:text="@string/hello_world"
-        android:textColor="#FF0000"
+     <TextView
+         android:id="@+id/adresse"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/ville"
+         android:layout_below="@+id/ville"
+         android:text="Adresse "
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="#0b48ab"
+         android:textSize="16dp" />
+
+     <TextView
+         android:id="@+id/tel"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/adresse"
+         android:layout_below="@+id/adresse"
+         android:text="Tél "
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="#0b48ab"
+         android:textSize="16dp" />
+
+     <TextView
+         android:id="@+id/fax"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/tel"
+         android:layout_below="@+id/tel"
+         android:text="Fax "
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="#0b48ab"
+         android:textSize="16dp" />
+
+     <TextView
+         android:id="@+id/email"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/fax"
+         android:layout_below="@+id/fax"
+         android:text="E-Mail "
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="#0b48ab"
+         android:textSize="16dp" />
+
+     <TextView
+         android:id="@+id/tv_agPays"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/pays"
+         android:layout_alignBottom="@+id/pays"
+         android:layout_toRightOf="@+id/adresse"
+         android:text="@string/hello_world"
+         android:textColor="#FF0000"
          android:textSize="16dip" />
 
-    <TextView
-        android:id="@+id/tv_agFax"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="17dp"
-        android:text="@string/hello_world"
-        android:textColor="#FF0000" 
-        android:textSize="16dip"/>
+     <TextView
+         android:id="@+id/tv_agVille"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/ville"
+         android:layout_alignBottom="@+id/ville"
+         android:layout_alignLeft="@+id/tv_agPays"
+         android:text="@string/hello_world"
+         android:textColor="#FF0000"
+         android:textSize="16dip" />
 
-    <TextView
-        android:id="@+id/tv_agMail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="17dp"
-        android:text="@string/hello_world" 
-        android:textColor="#FF0000"
-        android:textSize="16dip"/>
-    <TextView
-        android:id="@+id/tv_agInfosPratiques"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="17dp"
-        android:layout_marginTop="10dp"
-        android:text="@string/hello_world"
-        android:textColor="#FF0000" 
-        android:textSize="16dip"/>
+     <TextView
+         android:id="@+id/tv_agAdresse"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/tel"
+         android:layout_alignLeft="@+id/tv_agVille"
+         android:text="@string/hello_world"
+         android:textColor="#FF0000"
+         android:textSize="16dip" />
 
-</LinearLayout>
+     <TextView
+         android:id="@+id/tv_agTel"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/fax"
+         android:layout_alignLeft="@+id/tv_agAdresse"
+         android:text="@string/hello_world"
+         android:textColor="#FF0000"
+         android:textSize="16dip" />
+
+     <TextView
+         android:id="@+id/tv_agFax"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/fax"
+         android:layout_alignBottom="@+id/fax"
+         android:layout_alignLeft="@+id/tv_agTel"
+         android:text="@string/hello_world"
+         android:textColor="#FF0000"
+         android:textSize="16dip" />
+
+     <TextView
+         android:id="@+id/tv_agMail"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/tv_agFax"
+         android:layout_below="@+id/tv_agFax"
+         android:text="@string/hello_world"
+         android:textColor="#FF0000"
+         android:textSize="16dip" />
+
+</RelativeLayout>
