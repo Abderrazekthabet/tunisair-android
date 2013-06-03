@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        
+        android:id="@+id/menu_back_home"
+        android:showAsAction="collapseActionView"
+        android:orderInCategory="1"
+        android:icon="@drawable/back"/>
+     
+    <item
+        android:id="@+id/menu_refresh"
+        android:showAsAction="always"
+        android:orderInCategory="2"
+        android:icon="@drawable/navigation_refresh"
+        />
+
+</menu>

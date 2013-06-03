@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+         >
+
+        <TextView
+            android:id="@+id/pays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:text="Pays "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#0b48ab"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_agPays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="39dp"
+            android:layout_toRightOf="@+id/pays"
+            android:text="@string/hello_world"
+            android:textColor="#FF0000"
+            android:textSize="16dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:id="@+id/ville"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:text="Ville "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#0b48ab"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_agVille"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="43dp"
+            android:layout_toRightOf="@+id/ville"
+            android:text="@string/hello_world"
+            android:textColor="#FF0000"
+            android:textSize="16dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:id="@+id/adresse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:text="Adresse "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#0b48ab"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_agAdresse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/adresse"
+            android:text="@string/hello_world"
+            android:textColor="#FF0000"
+            android:textSize="16dip" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TextView
+            android:id="@+id/tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:text="Tél "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#0b48ab"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_agTel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="52dp"
+            android:layout_toRightOf="@+id/tel"
+            android:text="@string/hello_world"
+            android:textColor="#FF0000"
+            android:textSize="16dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout4"
+        android:layout_centerHorizontal="true"
+         >
+
+        <TextView
+            android:id="@+id/fax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:text="Fax "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#0b48ab"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_agFax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="48dp"
+            android:layout_toRightOf="@+id/fax"
+            android:text="@string/hello_world"
+            android:textColor="#FF0000"
+            android:textSize="16dip" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout5"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:text="E-Mail "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#0b48ab"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_agMail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="27dp"
+            android:layout_toRightOf="@+id/email"
+            android:text="@string/hello_world"
+            android:textColor="#FF0000"
+            android:textSize="16dip" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

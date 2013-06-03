@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:background="@android:color/transparent" > 
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="366dp"
+    android:layout_marginBottom="40dp"
+    android:layout_marginTop="50dp"
+    android:gravity="top"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llimgcarte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="TunisAIR dans le Monde" />
+
+        <ImageButton
+            android:id="@+id/imgcarte"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:maxWidth="@dimen/activity_vertical_margin"
+            android:src="@drawable/carte" />
+
+        <com.tunisair.utils.MyAutoCompleteTextView
+            android:id="@+id/ac_pays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="Choisissez un Pays... " />
+
+        <Spinner
+            android:id="@+id/sp_Ville"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            
+            android:textAlignment="gravity"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvListeagence"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/llimgcarte"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/transparent" >
+    </ListView>
+</LinearLayout>
+
+	<Button
+       android:onClick="onNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/home_left"/>
+	
+	
+</FrameLayout>
+

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/home_info"
+        android:onClick="onBack" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/home_pn"
+        android:onClick="onNext" />
+
+    <Button
+        android:id="@+id/btn_volj"
+        android:layout_width="202dp"
+        android:layout_height="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/btn_horaire" />
+
+    <Button
+        android:id="@+id/btn_reservation"
+        android:layout_width="202dp"
+        android:layout_height="63dp"
+        android:layout_alignLeft="@+id/btn_volj"
+        android:layout_below="@+id/btn_volj"
+        android:layout_marginTop="20dp"
+        
+        android:background="@drawable/btn_mesreservation" />
+
+    <Button
+        android:id="@+id/btn_fidelys"
+        android:layout_width="202dp"
+        android:layout_height="63dp"
+        android:layout_alignLeft="@+id/btn_reservation"
+        android:layout_below="@+id/btn_reservation"
+        android:layout_marginTop="20dp"
+        
+        android:background="@drawable/btn_fidelys" />
+
+</RelativeLayout>
